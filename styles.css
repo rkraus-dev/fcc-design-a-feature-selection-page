@@ -42,3 +42,39 @@ h1 {
 .feature-card:hover {
   border-color: #f1be32;
 }
+
+.feature-card:has(input:checked) {
+  border-color: #f1be32;
+  box-shadow: 0 0 15px rgba(241, 190, 50, 0.4);
+  background-color: rgba(241, 190, 50, 0.02);
+}
+
+input[type="checkbox"] {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  appearance: none;
+  width: 22px;
+  height: 22px;
+  border: 1px solid grey;
+  border-radius: 6px;
+  background-color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  transition: 0.2s;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #f1be32;
+  border-color: #f1be32;
+}
+
+input[type="checkbox"]:checked::after {
+  content: "✓";
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
