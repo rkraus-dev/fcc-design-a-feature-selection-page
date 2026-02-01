@@ -1,4 +1,4 @@
-# 🌐 Feature Selection Page - ![Status](https://img.shields.io/badge/status-in--progress-yellow)
+# 🌐 Feature Selection Page - ![Status](https://img.shields.io/badge/status-completed-brightgreen)
 
 This project is part of the **freeCodeCamp Responsive Web Design Certification**. In this lab, the objective was to build a feature selection interface that is functionally similar to the example project while applying a personal style. The focus lies on mastering custom checkbox interactions and responsive grid layouts.
 
@@ -21,7 +21,7 @@ This project is part of the **freeCodeCamp Responsive Web Design Certification**
 2. Open `index.html` in your browser.
 
 ## 🖼 Preview
-*This section is currently a work in progress and will be expanded as the project moves forward.*
+![Project Preview](preview.png)
 
 ### Quick Links
 [Live Demo](https://rkraus-dev.github.io/fcc-design-a-feature-selection-page/) *(Coming Soon)*
